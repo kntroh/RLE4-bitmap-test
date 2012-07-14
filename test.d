@@ -8,7 +8,7 @@ void main() {
 	s.setSize(50, 50);
 
 	auto l = new Label(s, SWT.NONE);
-	auto img = new Image(d, "test.bmp");
+	auto img = new Image(d, new ImageData("test.bmp"));
 	l.setImage(img);
 
 	s.open();
